@@ -1,0 +1,5 @@
+<%= form_tag('/sessions/create') do %>
+  Name: <div><%= text_field_tag 'user[name]' %></div>
+  Password: <div><%= text_field_tag 'user[password]' %></div>
+  <div><%= submit_tag 'Sign In' %></div>
+<% end %>
